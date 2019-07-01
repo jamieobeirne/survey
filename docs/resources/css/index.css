@@ -1,0 +1,149 @@
+*{
+	font-family: Raleway, Helvetica, sans-serif;
+	background-color: rgb(169, 215, 209);
+
+}
+
+
+#container {
+	display:grid;
+	grid-template-columns: 20vw 60vw 22vw;
+    grid-template-rows: 10vh 12vh auto 10vh;
+}
+
+#title {
+	display:grid;
+	grid-column: 2;
+	grid-row: 1;
+	place-content: center;
+	
+}
+
+
+#description{
+ 	display:grid;
+ 	grid-column: 2;
+ 	grid-row: 2;
+ 	justify-items: center;
+ 	background-color: hsl(0,0%,95%);
+ 	padding: 2vh 0 2vh 0;
+
+ 	
+}
+
+#survey-form {
+	display:grid;
+	grid-column: 2;
+	grid-row: 3;
+	background-color: hsl(0,0%,95%);
+	padding: 0 12vw 0 12vw;
+	
+	
+}
+
+#white-backdrop,
+  .white-backdrop{
+	background-color: hsl(0,0%,95%)
+}
+
+
+.imput-boxes {
+	background-color: hsla(360, 100%, 100%);
+	height: 3.5vh;
+	width: 35vh;
+	margin: 0 0 3vh .5vw;	
+	padding: .5vw;
+	font-color:black;
+}
+
+.drop-down {
+	background-color: hsla(0,0%,95%);
+	height: 3.5vh;
+	width: 25vh;
+}
+
+
+.submit {
+	color:white;
+	font-size: 2vh;
+	background: hsla(201, 100%, 60%);
+	height: 5vh;
+	width: 10vw;
+	border-radius: 2vh;
+	text-align: center;
+    display: block;
+    margin: 2vh auto;
+	
+}
+
+.text-box {
+	width: 25vw;
+	height: 20vh;
+	background-color: hsla(360, 100%, 100%);
+	vertical-align: top;
+	padding: .5vw;
+
+}
+
+.checkbox {
+	margin: 1vw .75vw 0 0;
+}
+
+.radio {
+	margin: 0 .3vw 0 1vw;
+}
+
+.age {
+	background-color: hsla(360, 100%, 100%);
+	height: 3.5vh;
+	width: 6vw;
+	margin: 0 0 0 .5vw;
+	padding: .35vw;
+}
+
+.footer {
+	display:grid;
+ 	grid-column: 2;
+ 	grid-row: 4;
+ 	justify-items: center;
+ 	font-weight: normal;
+}
+
+
+
+@media only screen and (max-width: 480px){
+	#container {
+	display:grid;
+	grid-template-columns: 3.5vw 89vw 3.5vw ;
+    grid-template-rows: 10vh 7vh auto 7vh;}
+
+    .text-box {
+	width: 50vw;
+	height: 20vh;
+	background-color: hsla(360, 100%, 100%);
+	vertical-align: top;}
+
+    .submit {
+	color:white;
+	font-size: 2vh;
+	background: hsla(201, 100%, 60%);
+	height: 5vh;
+	width: 20vw;
+	border-radius: 2vh;
+	text-align: center;
+    display: block;
+    margin: 2vh auto;
+	}
+}
+
+
+ 
+ 
+
+
+
+
+
+
+
+ 

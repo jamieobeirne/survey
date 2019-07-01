@@ -1,0 +1,93 @@
+<!-- DOCTYPE HTML -->
+<html lang="eng">
+  <head>
+  	<title> BCN survey</title>
+  	<link href="./resources/css/index.css" type="text/css"  rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <header id="container">
+    <div id="title">
+  	  <h1>Barcelona Survey Form</h1>
+      <br>
+    </div>
+  </header>
+  <body id="container">
+   <p1 id="description"> Let us know what your experience was like.</p1>
+   <form id="survey-form" action="/action_page.php">
+          <div id="white-backdrop">
+            <label for="firstname" id="white-backdrop">* First name: </label>
+            <input type = "text" id="firstname" class="imput-boxes" required placeholder="First name here">
+          </div>
+        
+          <div id="white-backdrop">
+            <label for="lastname" id="white-backdrop">* Last name</label>
+            <input type = "text" id= "lastname"  class="imput-boxes" required placeholder ="Last name here">
+          </div>
+          
+          <div id="white-backdrop">
+            <label for= "email" id="white-backdrop">* Email</label>
+            <input type="email" id="email" class="imput-boxes" required placeholder="Email here with @">
+          </div>
+          
+          <div id="white-backdrop">
+            <label for= "age" id="white-backdrop">* Age</label>
+            <input class="age" type="number" min="1" max="130" required placeholder="Age here">
+          </div>
+          <br>
+          <br>
+          <div id = "white-backdrop">
+            <label id="white-backdrop"> Which option best describes your experience in BCN?</label>
+            <select class="drop-down">
+        	    <option name="" selected disabled >Please choose</option>
+        	    <option name="really beautiful">Really beautiful</option>
+        	    <option name="okay">Okay</option>
+        	    <option name="got robbed">Got robbed</option>
+            </select>
+          </div>
+           <br>
+           <br>
+          <div id = "white-backdrop">
+       	     <label id = "white-backdrop"> Would you recommend BCN to friends?</label>
+       	     <input type="radio" name="radio"  id = "white-backdrop" class = "radio" >Yes
+       	     <input type="radio" name="radio" id = "white-backdrop" class = "radio">No 	
+          </div>
+           <br>
+           <br>
+          <div id="white-backdrop">
+              <label for = "like-drop-down" class = "white-backdrop">What did you like the most?</label>
+              <select id= "like-drop-down" class="drop-down">
+      	         <option value="" selected disabled> Please choose</option>
+      	         <option value="beach">the beach</option>
+      	         <option va©lue="building">the buildings</option>
+      	         <option value="bars">the bars</option>
+              </select>
+          </div>
+            <br>
+            <br>
+          <div id = "white-backdrop">  
+               <label id="white-backdrop">Things that should be improved (check all that apply):</label>
+               <br>
+               <div id = "white-backdrop" class="checkbox">
+                <input type="checkbox" value="less traffic" class="checkbox">Less traffic<br>
+                <input type="checkbox" value="more police"  class="checkbox">More police<br>
+                <input type="checkbox" value="less police"  class="checkbox">Less police<br>
+                <input type="checkbox" value= "summer weather" class="checkbox">Summer weather<br>
+                <input type="checkbox" value= "parks for kids" class="checkbox">Parks for kids<br>
+                <input type="checkbox" value= "more swimming pools" class="checkbox">More swimming pools<br>
+                <input type="checkbox" value= "More handicap accessibility" class="checkbox">More handicap accessibility<br>
+               </div>
+          </div>
+          <div id= "white-backdrop">
+               <br>
+               <br>
+          </div>
+          <div id="white-backdrop">
+        	     <label for="text-box" id="white-backdrop">Any suggestions?</form>
+        		   <textarea id="text-box" class= "text-box" placeholder="Write your BCN suggestions here..."></textarea>
+            <input type ="submit"  class = submit>
+          </div>
+   </form>
+  </body>
+  <h6 class= "footer"> home-made by Jamie O'Beirne June 25, 2019</h6>
+</html>
